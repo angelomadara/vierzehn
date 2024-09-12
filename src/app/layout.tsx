@@ -22,8 +22,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
         <link rel="icon" href="/favicon.ico" />
-        <title>{metadata.title as string}</title>
-        <meta name="description" content={metadata.description as string} />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
